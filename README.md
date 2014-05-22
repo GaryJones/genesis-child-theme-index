@@ -144,3 +144,7 @@ That will check the validity of all of the theme data files, including the one(s
 ## Remove Your Theme
 
 If your theme gets retired and is no longer available, then submit a pull requests which deletes the respective theme file.
+
+## Credits
+
+Built by [Gary Jones](http://twitter.com/GaryJ), inspired by [@remy]'s work on [mit-license](https://github.com/remy/mit-license).
