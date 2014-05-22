@@ -134,6 +134,8 @@ List of plugins names that the theme explicitly includes styles for.
 
 Please do separate commits for each theme file. Multiple themes files can be sent in one pull request.
 
+In the future, I may accept screenshots as well.
+
 ### Checking Your Theme Data File
 
 The project includes grunt support for checking the validity of your theme data file if you clone this repo locally.
