@@ -4,6 +4,8 @@ Crowdsourcing an index of all available Genesis child themes.
 
 The purpose is to gather a list of all themes, and their feature attributes, which can then be used as a datasource for those wanting to create a filterable showcase. Since the data comes from (or on behalf of) the theme authors, it should be more accurate and up to date.
 
+Once there are enough individual datafiles, I'll find a way to automatically concatenate them into a single file.
+
 ## The Theme Data File
 
 1. Each theme has it's own file inside the `themes` directory.
@@ -115,7 +117,7 @@ The number of layouts the theme supports (Genesis default is 6 but child theme m
 `true` if the theme has all strings internationalised, loads a child theme text domain, and includes a .pot file, `false` if it doesn't.
 
 #### browsersSupported *(object)*
-Key-value pairs of browser names and their minimum supported versions.
+Key-value pairs of browser names and their minimum supported versions. Browsers currently recognised are *Chrome*, *Firefox*, *IE*, *Opera* and *Safari*.
 
 #### pluginsSupported *(array)*
 List of plugins names that the theme explicitly includes styles for.
