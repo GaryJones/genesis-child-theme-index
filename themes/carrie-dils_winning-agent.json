@@ -1,0 +1,35 @@
+{
+    "name": "Winning Agent",
+    "author": "Carrie Dils",
+    "purchaseUrl": "http://www.winningagent.com/go/winning-agent-pro-theme",
+    "demoUrl": "http://demo.winningagent.com/winning-agent-pro-theme/",
+    "free": false,
+    "html5": true,
+    "responsive": true,
+    "mobileMenu": true,
+    "layouts": 3,
+    "accessibilityReady": false,
+    "customBackground": true,
+    "customColors": true,
+    "editorStyle": false,
+    "featuredImageHeader": false,
+    "grunt": false,
+    "parallax": false,
+    "postFormats": false,
+    "psds": false,
+    "rtlLanguageSupport": false,
+    "starter": false,
+    "translationReady": true,
+    "browsersSupported": {
+        "IE": 10,
+        "Chrome": 23,
+        "Safari": 6,
+        "Firefox": 17
+    },
+    "pluginsSupported": [
+        "AgentPress Listings",
+        "Gravity Forms",
+        "IDX Broker Platinum",
+        "Simple Social Icons"
+    ]
+}
