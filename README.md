@@ -32,7 +32,10 @@ Here's an example file:
     "featuredImageHeader": true,
     "grunt": true,
     "parallax": false,
-    "postFormats": false,
+    "postFormats": [
+        "aside",
+        "gallery"
+    ],
     "psds": false,
     "rtlLanguageSupport": true,
     "starter": true,
@@ -101,8 +104,8 @@ The number of layouts the theme supports (Genesis default is 6 but child theme m
 #### parallax *(boolean)*
 `true` if the theme design includes a parallax feature, `false` if it doesn't.
 
-#### postFormats *(boolean)*
-`true` if the theme adds support for post formats, `false` if it doesn't.
+#### postFormats *(boolean|array)*
+List of post formats the theme supports, `false` if it doesn't support any.
 
 #### psds *(boolean)*
 `true` if the theme includes PhotoShop (PSD) files of the original design, `false` if it doesn't.

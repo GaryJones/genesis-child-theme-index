@@ -15,7 +15,10 @@
     "featuredImageHeader": true,
     "grunt": true,
     "parallax": false,
-    "postFormats": false,
+    "postFormats": [
+        "aside",
+        "gallery"
+    ],
     "psds": false,
     "rtlLanguageSupport": true,
     "starter": true,

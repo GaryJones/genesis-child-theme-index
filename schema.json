@@ -66,8 +66,36 @@
 			"type": "boolean"
 		},
 		"postFormats": {
-			"description": "True if the theme adds support for post formats, false if it doesn't",
-			"type": "boolean"
+			"description": "List of post formats the theme supports, `false` if it doesn't support any.",
+			"oneOf": [
+				{
+					"type": "boolean",
+					"enum": [
+						"false"
+					]
+				},
+				{
+					"type": "array",
+					"uniqueItems": true,
+					"minItems": 1,
+					"maxItems": 9,
+					"items": {
+						"type": "string",
+						"enum": [
+							"aside",
+							"audio",
+							"chat",
+							"gallery",
+							"image",
+							"link",
+							"quote",
+							"status",
+							"video"
+						]
+					}
+				}
+				
+			]
 		},
 		"parallax": {
 			"description": "True if the theme design includes a parallax feature, false if it doesn't",
