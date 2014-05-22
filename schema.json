@@ -14,11 +14,13 @@
 		},
 		"purchaseUrl": {
 			"description": "The URL of the page where the theme can be purchased from, or in the case of being free, downloaded from",
-			"type": "string"
+			"type": "string",
+			"format": "uri"
 		},
 		"demoUrl": {
 			"description": "The URL where a demo of the theme can be found",
-			"type": "string"
+			"type": "string",
+			"format": "uri"
 		},
 		"free": {
 			"description": "True if the theme is free, false if a premium theme",
