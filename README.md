@@ -129,6 +129,16 @@ List of plugins names that the theme explicitly includes styles for.
 
 Please do separate commits for each theme file. Multiple themes files can be sent in one pull request.
 
+### Checking Your Theme Data File
+
+The project includes grunt support for checking the validity of your theme data file if you clone this repo locally.
+
+1. Open terminal and navigate to your repo.
+2. Type `npm install`.
+3. Type `grunt`.
+
+That will check the validity of all of the theme data files, including the one(s) you've just added.
+
 ## Remove Your Theme
 
 If your theme gets retired and is no longer available, then submit a pull requests which deletes the respective theme file.
