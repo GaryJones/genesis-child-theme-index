@@ -147,4 +147,4 @@ If your theme gets retired and is no longer available, then submit a pull reques
 
 ## Credits
 
-Built by [Gary Jones](http://twitter.com/GaryJ), inspired by [@remy]'s work on [mit-license](https://github.com/remy/mit-license).
+Built by [Gary Jones](http://twitter.com/GaryJ), inspired by remy's work on [mit-license](https://github.com/remy/mit-license).
