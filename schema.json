@@ -1,0 +1,124 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Genesis Child Theme",
+	"description": "A theme entry in the Genesis Child Theme Index",
+	"type": "object",
+	"properties": {
+		"name": {
+			"description": "Name of the theme",
+			"type": "string"
+		},
+		"author": {
+			"description": "Name of the individual or company who is credited as the author of the theme",
+			"type": "string"
+		},
+		"purchaseUrl": {
+			"description": "The URL of the page where the theme can be purchased from, or in the case of being free, downloaded from",
+			"type": "string"
+		},
+		"demoUrl": {
+			"description": "The URL where a demo of the theme can be found",
+			"type": "string"
+		},
+		"free": {
+			"description": "True if the theme is free, false if a premium theme",
+			"type": "boolean"
+		},
+		"html5": {
+			"description": "True if the theme supports HTML5, false if it outputs XHTML instead",
+			"type": "boolean"
+		},
+		"responsive": {
+			"description": "True if the theme displays well at various screen sizes, false if it is fixed width",
+			"type": "boolean"
+		},
+		"mobileMenu": {
+			"description": "True if the theme displays a mobile-specific menu at small screen sizes, false if it doesn't",
+			"type": "boolean"
+		},
+		"layouts": {
+			"description": "The number of layouts the theme supports (Genesis default is 6 but child theme may register or register others)",
+			"type": "integer",
+			"minimum": 1
+		},
+		"accessibilityReady": {
+			"description": "True if the theme meets all of the guidelines at http://make.wordpress.org/themes/guidelines/guidelines-accessibility/, false if not",
+			"type": "boolean"
+		},
+		"customBackground": {
+			"description": "True if the theme supports the WordPress custom background feature, false if it doesn't",
+			"type": "boolean"
+		},
+		"customColors": {
+			"description": "True if the theme allows a user to choose custom colors via an interface, false if it doesn't",
+			"type": "boolean"
+		},
+		"editorStyle": {
+			"description": "True if the theme includes styles for the post editor that match the front-end, false if it doesn't",
+			"type": "boolean"
+		},
+		"featuredImageHeader": {
+			"description": "True if the theme displays a featured image as a header, false if it doesn't.",
+			"type": "boolean"
+		},
+		"grunt": {
+			"description": "True if the theme includes support for *grunt* to allow development tasks to be automated, false if it doesn't",
+			"type": "boolean"
+		},
+		"postFormats": {
+			"description": "True if the theme adds support for post formats, false if it doesn't",
+			"type": "boolean"
+		},
+		"parallax": {
+			"description": "True if the theme design includes a parallax feature, false if it doesn't",
+			"type": "boolean"
+		},
+		"psds": {
+			"description": "True if the theme includes PhotoShop (PSD) files of the original design, false if it doesn't",
+			"type": "boolean"
+		},
+		"rtlLanguageSupport": {
+			"description": "True if the theme includes right-to-left (RTL) style sheets, false if it doesn't",
+			"type": "boolean"
+		},
+		"starter": {
+			"description": "True if the theme author considers this theme to be a starter theme, false if not",
+			"type": "boolean"
+		},
+		"translationReady": {
+			"description": "True if the theme has all strings internationalised, loads a child theme text domain, and includes a .pot file, false if it doesn't",
+			"type": "boolean"
+		},
+		"browsersSupported": {
+			"title": "Browsers",
+			"description": "Key-value pairs of browser names and their minimum supported versions",
+			"type": "object",
+			"properties": {
+				"Chrome": {
+					"type": "number"
+				},
+				"Firefox": {
+					"type": "number"
+				},
+				"IE": {
+					"type": "number"
+				},
+				"Opera": {
+					"type": "number"
+				},
+				"Safari": {
+					"type": "number"
+				}
+			}
+		},
+		"pluginsSupported": {
+			"description": "List of plugins names that the theme explicitly includes styles for",
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"uniqueItems": true
+		}
+	},
+	"required": ["name", "author", "purchaseUrl"]
+}

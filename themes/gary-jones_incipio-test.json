@@ -1,0 +1,34 @@
+{
+    "name": "Incipio (Test File)",
+    "author": "Gary Jones, Gamajo Tech",
+    "purchaseUrl": "http://shop.example.com/incipio/",
+    "demoUrl": "http://demo.example.com/incipio/",
+    "free": false,
+    "html5": true,
+    "responsive": true,
+    "mobileMenu": true,
+    "layouts": 6,
+    "accessibilityReady": false,
+    "customBackground": true,
+    "customColors": false,
+    "editorStyle": true,
+    "featuredImageHeader": true,
+    "grunt": true,
+    "parallax": false,
+    "postFormats": false,
+    "psds": false,
+    "rtlLanguageSupport": true,
+    "starter": true,
+    "translationReady": true,
+    "browsersSupported": {
+        "IE": 8,
+        "Chrome": 22,
+        "Safari": 6,
+        "Firefox": 12
+    },
+    "pluginsSupported": [
+        "WooCommerce",
+        "bbPress",
+        "Simple Social Icons"
+    ]
+}
