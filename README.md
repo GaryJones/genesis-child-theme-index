@@ -10,7 +10,7 @@ Once there are enough individual datafiles, I'll find a way to automatically con
 
 1. Each theme has it's own file inside the `themes` directory.
 2. Each file is named in the format of `{vendor-name}_{theme-name}.json` e.g. `studiopress_parallax-pro.json`.
-3. Populate the properties as required. Check with [JSONLint](jsonlint.com) that your file is valid JSON.
+3. Populate the properties as required. Check with [JSONLint](http://jsonlint.com) that your file is valid JSON.
 
 Here's an example file:
 
