@@ -142,12 +142,24 @@
 			}
 		},
 		"pluginsSupported": {
-			"description": "List of plugins names that the theme explicitly includes styles for",
-			"type": "array",
-			"items": {
-				"type": "string"
-			},
-			"uniqueItems": true
+			"description": "List of plugins names that the theme explicitly includes styles for, false if none",
+			"oneOf": [
+				{
+					"type": "boolean",
+					"enum": [
+						false
+					]
+				},
+				{
+					"type": "array",
+					"items": {
+						"type": "string"
+					},
+					"minItems": 1,
+					"uniqueItems": true
+				}
+
+			]
 		}
 	},
 	"required": ["name", "author", "purchaseUrl"]
