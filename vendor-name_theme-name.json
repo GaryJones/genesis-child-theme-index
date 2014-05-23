@@ -1,0 +1,33 @@
+{
+    "name": "",
+    "author": "",
+    "purchaseUrl": "",
+    "demoUrl": "",
+    "free": false,
+    "html5": false,
+    "responsive": false,
+    "mobileMenu": false,
+    "layouts": 6,
+    "accessibilityReady": false,
+    "customBackground": false,
+    "customColors": false,
+    "editorStyle": false,
+    "featuredImageHeader": false,
+    "grunt": false,
+    "parallax": false,
+    "postFormats": false,
+    "psds": false,
+    "rtlLanguageSupport": false,
+    "starter": false,
+    "translationReady": false,
+    "browsersSupported": {
+        "IE": 8,
+        "Chrome": 34,
+        "Firefox": 28,
+        "Opera": 20,
+        "Safari": 6.1
+    },
+    "pluginsSupported": [
+        ""
+    ]
+}
