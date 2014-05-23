@@ -173,6 +173,25 @@ That will check the validity of all of the theme data files, including the one(s
 
 If your theme gets retired and is no longer available, then submit a pull requests which deletes the respective theme file.
 
+## What Will Happen With This Data?
+
+As mentioned, the intent of this project is to collect data for each available Genesis child theme, into one central location. That data can then be used, by anyone who wants it, without having to go and do their own research for hours and hours. They could:
+
+* import it into posts or custom post types in their own site and create a review of each one, with affiliate links
+* create a simple interface interface to help themselves or someone else filter down the best theme for a particular project.
+* collect some interesting statistics about the state of the Genesis child theme ecosystem, and potentially use that to influence their own theme-building decisions.
+
+### Aren't there existing sites that showcase individual theme features already?
+
+Yes, to some extent:
+
+ * [GenesisThemes.ca](http://genesisthemes.ca/) 316 entries, but some are pro packs of themes, or plugins, and at least one links to a dead end so not all entries are available themes. Very good list of features, all filterable, though things like "Developer License" and "Genesis Theme Options" are redundant.
+ * [Genesis Themes Guide](http://www.genesisthemesguide.com/themes/) - 70 themes, no filters, without finding a theme that has the feature you're looking for and clicking the taxonomy term link. Doesn't include all features (Winning Agent has one feature, one category).
+* [Genesis Designr](http://genesisdesignr.com/genesis-child-themes-html5/) - 76 themes, only HTML5. Some filters avaible, but limited.
+* [Genesis StudioPress Themes](http://www.genesisstudiopressthemes.com/) - 220+ themes, some filters, but mostly for categories and authors, not features.
+
+I'd like to work with the creators of these sites in two ways - to have them help establish the "standard" (schema) by which themes can be indexed, and then to find a way to have this data power their sites, for the benefit of everyone.
+
 ## Credits
 
 Built by [Gary Jones](http://twitter.com/GaryJ), inspired by remy's work on [mit-license](https://github.com/remy/mit-license).
