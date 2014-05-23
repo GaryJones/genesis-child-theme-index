@@ -107,6 +107,17 @@ The number of layouts the theme supports (Genesis default is 6 but child theme m
 #### postFormats *(boolean|array)*
 List of post formats the theme supports, `false` if it doesn't support any.
 
+~~~json
+    "postFormats": [
+        "aside",
+        "gallery"
+    ],
+~~~
+*or*
+~~~json
+    "postFormats": false,
+~~~
+
 #### psds *(boolean)*
 `true` if the theme includes PhotoShop (PSD) files of the original design, `false` if it doesn't.
 
@@ -123,14 +134,26 @@ List of post formats the theme supports, `false` if it doesn't support any.
 Key-value pairs of browser names and their minimum supported versions. Browsers currently recognised are *Chrome*, *Firefox*, *IE*, *Opera* and *Safari*.
 
 #### pluginsSupported *(array)*
-List of plugins names that the theme explicitly includes styles for.
+List of plugins names that the theme explicitly includes styles for, false if none.
+
+~~~json
+    "pluginsSupported": [
+        "Gravity Forms",
+        "Simple Social Icons"
+    ]
+~~~
+*or*
+~~~json
+    "pluginsSupported": false
+~~~
 
 ## Add Your Theme
 
 1. Fork this project.
-2. Edit your fork to create new theme data files in the `theme/` directory.
-3. Commit (and push back to your GitHub repo if editing locally).
-4. Submit a pull request.
+2. Edit your fork to create new theme data files in the `theme/` directory. You can use the [empty data file](vendor-name_theme-name.json) as a starting template.
+3. Ensure your files are named as `{vendor-name}`_`{theme_name}`.json
+4. Commit (and push back to your GitHub repo if editing locally).
+5. Submit a pull request.
 
 Please do separate commits for each theme file. Multiple themes files can be sent in one pull request.
 
