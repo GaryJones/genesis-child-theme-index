@@ -1,0 +1,33 @@
+{
+    "name": "Turn Key Legacy",
+    "author": "Agent Evolution",
+    "purchaseUrl": "http://www.agentevolution.com/shop/turn-key/",
+    "demoUrl": "http://turnkey.aethemes.com/",
+    "free": false,
+    "html5": true,
+    "responsive": true,
+    "mobileMenu": false,
+    "layouts": 3,
+    "accessibilityReady": false,
+    "customBackground": false,
+    "customColors": true,
+    "editorStyle": false,
+    "featuredImageHeader": false,
+    "grunt": false,
+    "parallax": false,
+    "postFormats": false,
+    "psds": false,
+    "rtlLanguageSupport": false,
+    "starter": false,
+    "translationReady": false,
+    "browsersSupported": {
+        "IE": 8,
+        "Chrome": 22,
+        "Safari": 6,
+        "Firefox": 12
+    },
+    "pluginsSupported": [
+        "IDX Broker Platinum",
+        "Gravity Forms"
+    ]
+}
