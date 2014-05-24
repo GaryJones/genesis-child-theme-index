@@ -1,0 +1,38 @@
+{
+    "name": "Move-in Ready",
+    "author": "Agent Evolution",
+    "purchaseUrl": "http://www.agentevolution.com/shop/move-in-ready/",
+    "demoUrl": "http://moveinready.aethemes.com/",
+    "free": false,
+    "html5": true,
+    "responsive": true,
+    "mobileMenu": true,
+    "layouts": 3,
+    "accessibilityReady": false,
+    "customBackground": false,
+    "customColors": true,
+    "editorStyle": true,
+    "featuredImageHeader": false,
+    "grunt": false,
+    "parallax": false,
+    "postFormats": false,
+    "psds": false,
+    "rtlLanguageSupport": false,
+    "starter": false,
+    "translationReady": false,
+    "browsersSupported": {
+        "IE": 8,
+        "Chrome": 22,
+        "Safari": 6,
+        "Firefox": 12
+    },
+    "pluginsSupported": [
+        "WP Listings",
+        "AgentPress Listings",
+        "dsIDXpress",
+        "Gravity Forms",
+        "LayerSlider",
+        "Genesis eNews Extended",
+        "Genesis Latest Tweets"
+    ]
+}
