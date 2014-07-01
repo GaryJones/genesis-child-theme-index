@@ -1,0 +1,37 @@
+{
+    "name": "Minny",
+    "author": "CLVNK, Co.",
+    "purchaseUrl": "http://demo.clvnk.co/minny/",
+    "demoUrl": "http://demo.clvnk.co/minny/",
+    "free": true,
+    "html5": true,
+    "responsive": true,
+    "mobileMenu": false,
+    "layouts": 1,
+    "accessibilityReady": false,
+    "customBackground": false,
+    "customColors": false,
+    "editorStyle": false,
+    "featuredImageHeader": true,
+    "grunt": false,
+    "parallax": false,
+    "postFormats": [
+        "image",
+        "quote",
+        "link"
+    ],
+    "psds": false,
+    "rtlLanguageSupport": false,
+    "starter": false,
+    "translationReady": false,
+    "browsersSupported": {
+        "IE": 8,
+        "Chrome": 25,
+        "Firefox": 3.6,
+        "Opera": 12.4,
+        "Safari": 5.1
+    },
+    "pluginsSupported": [
+        "Simple Social Icons"
+    ]
+}
